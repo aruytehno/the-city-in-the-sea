@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #32353a; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #e84545; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #262424; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
 
@@ -138,7 +138,7 @@ h6 {
 }
 
 .scrolled .header {
-  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);*/
 }
 
 /* Index Page Header
@@ -153,10 +153,11 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #ffffff;
-  --heading-color: #32353a;
-  --nav-color: #3a3939;
-  --nav-hover-color: #e84545;
+  visibility:hidden;
+  --background-color: rgba(255, 255, 255, 0);
+  --heading-color: rgba(255, 255, 255, 0);
+  --nav-color: rgba(255, 255, 255, 0);
+  --nav-hover-color: rgba(255, 255, 255, 0);
 }
 
 /*--------------------------------------------------------------
