@@ -1583,6 +1583,48 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
+
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .call-to-action h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #1e1c1c;
+  }
+  .call-to-action #head11{
+    margin: 15% -15% 60%;
+    text-align: left;
+  }
+  .call-to-action #text22 {
+    font-size: 20px;
+  }
+  .call-to-action #end33 {
+    margin: 95% 0 0;
+    font-size: 15px;
+  }
+
+
+}
+/* Mobile */
+@media (max-width: 1199px) {
+  .call-to-action h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e1c1c;
+  }
+  .call-to-action #head11{
+    margin: 75% 0 130%;
+  }
+  .call-to-action #text22 {
+
+  }
+  .call-to-action #end33 {
+    margin: 200% 0 0;
+  }
+}
+
+
 .call-to-action {
   --background-color: #000000;
   --default-color: #ffffff;
@@ -1616,11 +1658,6 @@ section,
   z-index: 3;
 }
 
-.call-to-action h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--default-color);
-}
 
 .call-to-action p {
   color: var(--default-color);
