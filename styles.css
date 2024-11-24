@@ -20,21 +20,19 @@ body, html {
 }
 
 .call-to-action {
-    margin: 15% 0 30%; /* Отступы сверху и снизу */
-    text-align: center; /* Центрируем текст */
-    font-size: 2rem; /* Размер заголовка */
-    color: white; /* Цвет текста */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для читаемости */
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .call-to-action h1 {
     font-size: 4rem;
-    margin: 15% 0 30%;
+    margin: 15% 0 30%; /* Скорректированы отступы */
 }
 
 .call-to-action h6 {
-    font-size: 2rem;
-    margin: 52% 0 45%;
+    font-size: 1.8rem; /* Сделать текст читаемым */
+    margin: 55% 0 3%; /* Привести отступы в разумный вид */
 }
 
 
