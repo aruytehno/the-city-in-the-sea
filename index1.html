@@ -2,9 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стих на фоне</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .background {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-image: url('background.jpg'); /* Укажите путь к изображению */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .poem {
+            color: white; /* Цвет текста */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для читаемости */
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для текста */
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="background">
+        <div class="poem">
+            <p>Идут года — никто их не воротит,</p>
+            <p>Вдруг каждый миг бесценным станет вдруг...</p>
+            <p>И как найти в себе ту ясность сути,</p>
+            <p>Что нас спасёт от хаоса и мук?</p>
+        </div>
+    </div>
 </body>
 </html>
