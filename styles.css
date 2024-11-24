@@ -20,7 +20,7 @@ body, html {
 }
 
 /* Заголовок */
-.call-to-action #head11 {
+.call-to-action {
     margin: 15% 0 30%; /* Отступы сверху и снизу */
     text-align: center; /* Центрируем текст */
     font-size: 2rem; /* Размер заголовка */
