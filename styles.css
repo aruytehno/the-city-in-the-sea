@@ -19,7 +19,6 @@ body, html {
     z-index: -1;
 }
 
-/* Заголовок */
 .call-to-action {
     margin: 15% 0 30%; /* Отступы сверху и снизу */
     text-align: center; /* Центрируем текст */
@@ -27,6 +26,17 @@ body, html {
     color: white; /* Цвет текста */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для читаемости */
 }
+
+.call-to-action h1 {
+    font-size: 4rem;
+    margin: 15% 0 30%;
+}
+
+.call-to-action h6 {
+    font-size: 2rem;
+    margin: 52% 0 45%;
+}
+
 
 /* Контейнер с текстом */
 .content {
@@ -48,13 +58,4 @@ body, html {
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-}
-
-/* Подпись */
-.call-to-action #end33 {
-    margin: 22% 0 25% !important;
-    text-align: center !important;
-    font-size: 1rem !important;
-    color: white !important;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7) !important;
 }
